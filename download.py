@@ -15,7 +15,7 @@ def download_model():
     print("done")
 
     print("downloading tokenizer...")
-    GPT2Tokenizer.from_pretrained("EleutherAI/gpt-j-6B")
+    GPT2Tokenizer.from_pretrained("Gustavosta/MagicPrompt-Stable-Diffusion")
     print("done")
 
 if __name__ == "__main__":
