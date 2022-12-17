@@ -15,7 +15,7 @@ def download_model():
     print("done")
 
     print("downloading tokenizer...")
-    GPT2Tokenizer.from_pretrained("Gustavosta/MagicPrompt-Stable-Diffusion")
+    GPT2Tokenizer.from_pretrained("https://huggingface.co/Gustavosta/MagicPrompt-Stable-Diffusion/resolve/main/tokenizer.json")
     print("done")
 
 if __name__ == "__main__":
