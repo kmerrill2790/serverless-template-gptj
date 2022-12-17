@@ -19,7 +19,7 @@ def init():
         model.cuda()
         print("done")
 
-    tokenizer = GPT2Tokenizer.from_pretrained("Gustavosta/MagicPrompt-Stable-Diffusion")
+    tokenizer = GPT2Tokenizer.from_pretrained("https://huggingface.co/Gustavosta/MagicPrompt-Stable-Diffusion/resolve/main/tokenizer.json")
 
 
 # Inference is ran for every server call
